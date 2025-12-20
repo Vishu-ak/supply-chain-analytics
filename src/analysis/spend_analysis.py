@@ -312,3 +312,4 @@ class SpendAnalyzer:
         for col in ["order_date", "requested_delivery_date"]:
             if col in self.po.columns:
                 self.po[col] = pd.to_datetime(self.po[col], errors="coerce")
+
