@@ -327,3 +327,4 @@ class VendorScorer:
         total = sum(self.weights.values())
         if abs(total - 1.0) > 0.01:
             raise ValueError(f"Vendor score weights must sum to 1.0, got {total:.3f}")
+
