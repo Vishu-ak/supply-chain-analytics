@@ -309,3 +309,4 @@ class InventoryOptimizer:
                 "total_cost": total,
             })
         return pd.DataFrame(rows)
+
